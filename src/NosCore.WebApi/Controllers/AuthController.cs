@@ -125,7 +125,6 @@ namespace NosCore.WebApi.Controllers
             return Ok(new { code = authCode });
         }
 
-
         [HttpPost]
         public IActionResult SetExpectingConnection([FromBody] AuthIntent intent)
         {
@@ -156,7 +155,6 @@ namespace NosCore.WebApi.Controllers
 
             return Ok(true);
         }
-
     }
 
     [Serializable]

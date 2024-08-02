@@ -23,6 +23,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NosCore.Tests.Shared", "test\NosCore.Tests.Shared\NosCore.Tests.Shared.csproj", "{B22C7ABE-2B56-42AF-8CF2-46058A5B6543}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{975CF226-2297-4B1B-88C6-5783C5359D18}"
+	ProjectSection(SolutionItems) = preProject
+		database.yml = database.yml
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Executables", "Executables", "{D4E0F6CD-9F21-4140-AC42-CD021D98B980}"
 EndProject
@@ -40,7 +43,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NosCore.WebApi.Tests", "tes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NosCore.DtoGenerator", "tools\NosCore.DtoGenerator\NosCore.DtoGenerator.csproj", "{3F7C2822-BF7B-4BC9-8AA3-3ED2E2F0351C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NosCore.WebApi", "src\NosCore.WebApi\NosCore.WebApi.csproj", "{4A4D1876-74CC-46B7-BB93-B3E0E4D25AE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NosCore.WebApi", "src\NosCore.WebApi\NosCore.WebApi.csproj", "{4A4D1876-74CC-46B7-BB93-B3E0E4D25AE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
